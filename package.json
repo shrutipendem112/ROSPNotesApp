@@ -1,34 +1,45 @@
 {
-  "name": "notesbackend",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "type": "module",
-  "scripts": {
-    "start": "nodemon index.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/shrutipendem112/notesBackend.git"
-  },
-  "author": "Shruti Pendem",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/shrutipendem112/notesBackend/issues"
-  },
-  "homepage": "https://github.com/shrutipendem112/notesBackend#readme",
+  "name": "notesfrontend",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "bcrypt": "^5.1.1",
-    "body-parser": "^1.20.3",
-    "colors": "^1.4.0",
-    "cors": "^2.8.5",
-    "dotenv": "^16.4.5",
-    "express": "^4.19.2",
-    "express-async-handler": "^1.2.0",
-    "joi": "^17.13.3",
-    "jsonwebtoken": "^9.0.2",
-    "mongodb": "^6.5.0",
-    "mongoose": "^8.2.3",
-    "nodemon": "^3.1.0"
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.6.8",
+    "bootstrap": "^5.3.3",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.10.2",
+    "react-dom": "^18.2.0",
+    "react-icons": "^5.0.1",
+    "react-router-dom": "^6.26.2",
+    "react-scripts": "5.0.1",
+    "react-toaster": "^0.0.3",
+    "react-toastify": "^10.0.5",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }

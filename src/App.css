@@ -1,0 +1,49 @@
+.App {
+  text-align: center;
+  background-color: var(--body_background);
+}
+.bgColor-dark{
+  background-color: var(--body_background) !important;
+}
+
+.textColor-dark{
+  color: var(--body_color) !important;
+}
+
+.borderColor-card{
+  border: 2px solid var(--body_color) !important;
+}
+.margin-btn{
+  margin: 1px;
+  border: 1px solid blueviolet !important;
+}
+
+.logout-btn {
+  width: 80px;
+  padding: 10px; /* Space inside the button */
+  background-color: blueviolet !important; /* Bootstrap primary color */
+  color: white !important; /* Text color */
+  border: 1px solid blueviolet !important; /* No border */
+  border-radius: 4px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  font-size: 16px; /* Increase font size */
+}
+
+.logout-btn:hover {
+  background-color: blueviolet !important; /* Darker blue on hover */
+}
+
+.btnColor{
+  color: blueviolet !important;
+  background-color: var(--body_background) !important;
+  border: 1px solid var(--body_color) !important;
+}
+.btnColor-hover:hover{
+  background-color: var(--color_hover) !important;
+  color: blueviolet !important;
+}
+.btnColor::after{
+  color: var(--body_color) !important;
+  background-color: var(--body_background) !important;
+  border: 1px solid blueviolet !important;
+}
